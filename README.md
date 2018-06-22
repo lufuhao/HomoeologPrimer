@@ -1,6 +1,6 @@
-#HomoeologPrimer
+# HomoeologPrimer
 
-##SYNOPSIS:
+## SYNOPSIS:
 
 perl $0 --input my.fa --keep seqID1,seqID2 --diff seqID3,seqID4 --output mu.out --exon_len INT1,INT2,INT3 --primer3config /path/to/primer3config/ [Options]
 
@@ -8,7 +8,7 @@ Version: v20180622
 
 
 
-##Requirements:
+## Requirements:
 
 + Programs[in PATH]: 
 
@@ -22,14 +22,14 @@ Version: v20180622
 
  - **FuhaoPerl5Lib**: [github.com/lufuhao/FuhaoPerl5Lib](https://github.com/lufuhao/FuhaoPerl5Lib)
 
-##Descriptions:
+## Descriptions:
 
-###Design primers to amplify
+### Design primers to amplify
 
 - [x]  specific homoeolog
 - [x]  all the homoeologs
 
-###Steps (Included):
+### Steps (Included):
 
 1. Align multiple fasta file using 'muscle'
 
@@ -41,7 +41,7 @@ Version: v20180622
 
 5. Collect primers
 
-###Skills:
+### Skills:
 
 1. Do privide `--primer3config`, otherwise primer3 fails; 
 
@@ -55,7 +55,7 @@ Version: v20180622
 
 4. See examples/README for more primer selection skills 
 
-##Options:
+## Options:
 
 ```
 --help|-h
@@ -105,7 +105,7 @@ Version: v20180622
         Print current SCRIPT version;
 ```
 
-##Author:
+## Author:
 
 >Fu-Hao Lu
 
