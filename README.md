@@ -49,7 +49,7 @@ Version: v20180622
 
   > (Primer3Root) is the folder you installed primer3
 
-2. use `--force` to generate some primers even if it violates specific constraints if you can not get any without this option. if you can not get any without this option; And you **need to evaluate the primer** using some programs: like [multiple-primer-analyzer](https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjz3rLZsOfbAhUI4RsKHSelC4YYABAAGgJ3bA&ohost=www.google.co.uk&cid=CAESEeD2UmkcERPFfsH_BJZOycHO&sig=AOD64_1jHeP4MI3gCB23HRWy5rxYO1bFgA&q=&ved=0ahUKEwi21qzZsOfbAhWLcRQKHZxLAnEQ0QwIJw&adurl=) (thermofisher)
+2. use `--force` to generate some primers even if it violates specific constraints if you can not get any without this option. And you **need to evaluate the primers** using some programs: like [multiple-primer-analyzer](https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjz3rLZsOfbAhUI4RsKHSelC4YYABAAGgJ3bA&ohost=www.google.co.uk&cid=CAESEeD2UmkcERPFfsH_BJZOycHO&sig=AOD64_1jHeP4MI3gCB23HRWy5rxYO1bFgA&q=&ved=0ahUKEwi21qzZsOfbAhWLcRQKHZxLAnEQ0QwIJw&adurl=) (thermofisher)
 
 3. Need to specify `--exon_len` if you want to know whether primers cross exons
 
