@@ -6,6 +6,8 @@ perl $0 --input my.fa --keep seqID1,seqID2 --diff seqID3,seqID4 --output mu.out 
 
 Version: v20180622
 
+
+
 ##Requirements:
 
 + Programs[in PATH]: 
@@ -24,9 +26,8 @@ Version: v20180622
 
 ###Design primers to amplify
 
-*  specific homoeolog
-
-*   all the homoeologs
+- [x]  specific homoeolog
+- [x]  all the homoeologs
 
 ###Steps (Included):
 
@@ -36,15 +37,17 @@ Version: v20180622
 
 3. Use these SNPs as the last base at primer 3'end
 
-4. Collect primers
+4. Run primer3
+
+5. Collect primers
 
 ###Skills:
 
 1. do privide `--primer3config`, otherwise primer3 fails; 
 
-  >usually /(Primer3Root)/src/primer3_config
+  > usually /(Primer3Root)/src/primer3_config
 
-  >(Primer3Root) is the folder you installed primer3
+  > (Primer3Root) is the folder you installed primer3
 
 2. use `--force` to generate some primers even if it violates specific constraints if you can not get any without this option. if you can not get any without this option; And you **need to evaluate the primer** using some programs: like [multiple-primer-analyzer](https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjz3rLZsOfbAhUI4RsKHSelC4YYABAAGgJ3bA&ohost=www.google.co.uk&cid=CAESEeD2UmkcERPFfsH_BJZOycHO&sig=AOD64_1jHeP4MI3gCB23HRWy5rxYO1bFgA&q=&ved=0ahUKEwi21qzZsOfbAhWLcRQKHZxLAnEQ0QwIJw&adurl=) (thermofisher)
 
@@ -96,14 +99,18 @@ Version: v20180622
         Maximum primer length value
 --verbose
         Detailed output for trouble-shooting;
---version|v!
+--version|v
         Print current SCRIPT version;
 ```
 
 ##Author:
 
 >Fu-Hao Lu
+
 >Post-Doctoral Scientist in Micheal Bevan laboratory
+
 >Cell and Developmental Department, John Innes Centre
+
 >Norwich NR4 7UH, United Kingdom
+
 >E-mail: Fu-Hao.Lu@jic.ac.uk
