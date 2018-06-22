@@ -1,0 +1,21 @@
+### install SAMtools, muscle, primer3
+### samtools, muscle and primer3_core should be in PATH
+
+### Run pipeline; it would take a few minutes
+
+bash pipeline.sh
+
+### You will see three folders are created and in each folder there is a cluster.*.primers file
+
+###You should see all the primers it designed
+###SeqID	Index	F/R	start	len	tm	gc%	any_th	3'_th	hairpin	seq	Across_Exons
+
+
+### Skills for primer selection
+### 1. start- positions NOT closed to the cDNA ends, because mRNA/cDNA degradation during your experiments
+### 2. small any_th
+### 3. small 3'_th
+### 4. smaller hairpin, at least less than <= (tm-10)
+### 5. try to avoid the same >3 bases, like '***AAAA*****', '****TTTTT******', because primer synthesis may be not so precise
+### 6. for cDNA, primers better across exons considering genomic DNA contaminations
+

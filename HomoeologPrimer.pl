@@ -285,7 +285,7 @@ print "\n";
 print "\n";
 
 print "Main: Info: 1. run muscle\n" if ($verbose);
-my $msfout="$outpfx.01.msf";
+my $msfout="$outpfx.msf";
 unless (exec_cmd_return("muscle -msf -in $inputfa -out $msfout -quiet")) {
 	die "Error01: muscle running failed\n";
 }
