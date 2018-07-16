@@ -18,9 +18,9 @@ Version: v20180622
 
 + Modules: 
  
--  Scalar::Util, Cwd, Getopt::Long, FindBin, Data::Dumper, File::Basename
+- [x] Scalar::Util, Cwd, Getopt::Long, FindBin, Data::Dumper, File::Basename
 
--  **FuhaoPerl5Lib**: [github.com/lufuhao/FuhaoPerl5Lib](https://github.com/lufuhao/FuhaoPerl5Lib)
+- [x] **FuhaoPerl5Lib**: [github.com/lufuhao/FuhaoPerl5Lib](https://github.com/lufuhao/FuhaoPerl5Lib)
 
 ## Descriptions:
 
