@@ -12,9 +12,9 @@ Version: v20180622
 
 + Programs[in PATH]: 
 
- - muscle:  [www.drive5.com/muscle/](http://www.drive5.com/muscle/)
+ * muscle:  [www.drive5.com/muscle/](http://www.drive5.com/muscle/)
 
- - primer3_core:  [github.com/primer3-org/primer3](https://github.com/primer3-org/primer3)
+ * primer3_core:  [github.com/primer3-org/primer3](https://github.com/primer3-org/primer3)
 
 + Modules: 
  
