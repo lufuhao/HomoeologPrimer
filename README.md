@@ -12,15 +12,15 @@ Version: v20180622
 
 + Programs[in PATH]: 
 
- * muscle:  [www.drive5.com/muscle/](http://www.drive5.com/muscle/)
+- [x] muscle:  [www.drive5.com/muscle/](http://www.drive5.com/muscle/)
 
- * primer3_core:  [github.com/primer3-org/primer3](https://github.com/primer3-org/primer3)
+- [x] primer3_core:  [github.com/primer3-org/primer3](https://github.com/primer3-org/primer3)
 
 + Modules: 
  
- - Scalar::Util, Cwd, Getopt::Long, FindBin, Data::Dumper, File::Basename
+-  Scalar::Util, Cwd, Getopt::Long, FindBin, Data::Dumper, File::Basename
 
- - **FuhaoPerl5Lib**: [github.com/lufuhao/FuhaoPerl5Lib](https://github.com/lufuhao/FuhaoPerl5Lib)
+-  **FuhaoPerl5Lib**: [github.com/lufuhao/FuhaoPerl5Lib](https://github.com/lufuhao/FuhaoPerl5Lib)
 
 ## Descriptions:
 
